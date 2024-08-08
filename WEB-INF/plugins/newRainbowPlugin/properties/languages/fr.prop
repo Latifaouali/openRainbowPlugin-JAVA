@@ -1,0 +1,26 @@
+data.$id.shortcut.jcmsplugin.rainbow.title: Rainbow
+
+#plugin Properties:
+jcmsplugin.rainbow.applicationID:  Veuillez saisir votre application ID : 
+jcmsplugin.rainbow.secretkey: Veuillez saisir votre secret key :
+
+##Chat content##
+
+##Chat content Side##
+
+jcmsplugin.rainbow.app.content-side.title:Conversations récentes
+jcmsplugin.rainbow.app.conversation.endCall:Raccrocher
+jcmsplugin.rainbow.app.conversation.outgoingCall : Appel sortant
+jcmsplugin.rainbow.app.conversation.missedCall : Appel manqué
+jcmsplugin.rainbow.app.conversation.CalledU : Vous a appelé 
+jcmsplugin.rainbow.app.conversation.UCalled : Vous avez appelé 
+jcmsplugin.rainbow.app.conversation.Input : Saisissez votre texte ici ...
+jcmsplugin.rainbow.app.conversation.org : Organisateur
+jcmsplugin.rainbow.app.conversation.Mem : Membres
+jcmsplugin.rainbow.app.conversation.infos : Informations du contact
+jcmsplugin.rainbow.app.conversation.email : E-mail professionnel
+jcmsplugin.rainbow.app.conversation.country : Pays 
+##End Chat content Side##
+
+##End Chat content##
+

@@ -1,0 +1,12 @@
+
+<div class="content-sidebar">
+    <form class="content-sidebar-form">
+        <input type="search" class="content-sidebar-input" id="Search" placeholder="Search...">
+        <button type="submit" class="content-sidebar-submit Search"><i class="ri-search-line"></i></button>
+    </form>
+    <div class="content-messages">
+        <h5><%= glp("jcmsplugin.rainbow.app.content-side.title") %></h5> 
+        <ul class="content-messages-list">
+        </ul>
+    </div>
+</div>

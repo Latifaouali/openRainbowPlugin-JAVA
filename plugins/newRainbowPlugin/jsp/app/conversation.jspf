@@ -1,0 +1,33 @@
+ <div style="height:100%; display:flex">
+<div class="conversation">
+    <div class="conversation-top" style="display:none;">
+        <div class="conversation-user" style="display:flex; align-items: center;">
+            <img class="conversation-user-image" src="" alt="">
+            <div class="conversation-user-info">
+                <div class="conversation-user-name"></div>
+            </div>
+        </div>
+        <div class="conversation-buttons" style="display:none;">
+            <button type="button" id="callButton"><i class="ri-phone-fill top_buttons"></i></button>
+            <button type="button"  id="videoCallButton"><i class="ri-vidicon-line top_buttons"></i></button>
+            <button type="button"  id="more-infos-display" ><i class="ri-arrow-right-double-fill  top_buttons"></i></button>
+        </div>
+    </div>
+    <div class="conversation-main">
+        <div class="conversation-placeholder">
+            <p>Please select a conversation to start chatting.</p>
+        </div>
+        <ul class="conversation-wrapper" style="display:none;">
+            <!-- Messages will be inserted here -->
+        </ul>
+    </div>
+    <div class="conversation-form" style="display:none;">
+        <div class="conversation-form-group">
+            <textarea class="conversation-form-input" rows="1" placeholder="<%= glp("jcmsplugin.rainbow.app.conversation.Input") %>"></textarea>
+            <button type="button" class="conversation-form-button conversation-form-submit"><i class="ri-send-plane-2-line"></i></button>
+        </div>
+</div>
+</div>
+<div class="more-infos">
+</div>
+</div>

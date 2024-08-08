@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>Rainbow Documentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../../../css/jalios/pluginDoc.css" type="text/css" />
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            width:90%;
+            margin-left:5%;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        span{
+        display:flex;
+        justify-content:center;
+        }
+    </style>
+  </head>
+  <body>
+
+ 
+  <h1 style="text-align: center">RainbowPlugin Documentation</h1>
+  
+  <h2>Sommaire</h2>
+  <table><tr><td>
+    <ol>
+	    <li><a href="#Introduction">Introduction</a></li>
+	    <li><a href="#Installation">Installation</a></li>
+	    <li><a href="#Configuration">Configuration du Plugin</a></li>
+	    <li><a href="#Utilisation">Utilisation</a></li>
+	    <li><a href="#Fonctionnalités">Fonctionnalités</a></li>
+	    <ol>
+	         <li><a href="#PagePrincipale"> Page Principale</a></li>
+            <li><a href="#Messagerie"> Messagerie Instantanée</a></li>
+            <li><a href="#Appel"> Appels Vocaux et Vidéo</a></li>
+            <li><a href="#Notifications"> Notifications </a></li>
+          </ol>
+    </ol>
+  </td></tr></table>
+  
+  <a name="Introduction"></a>
+  <h2>Introduction</h2>
+  <p>Bienvenue dans notre plugin Rainbow, un outil puissant conçu pour intégrer les fonctionnalités de l'API Rainbow dans votre application. 
+  Rainbow est une plateforme de communication et de collaboration unifiée qui permet aux utilisateurs de se connecter, de communiquer et de collaborer de manière transparente.</p>
+  
+  
+  <a name="Installation"></a> 
+        <h2>Procédure d'Installation Standard de JCMS</h2>
+        <p>Installez le plugin Rainbow en suivant la procédure standard d'installation des modules JCMS </p> 
+  
+  <a name="Configuration"></a> 
+  <h2>Configuration du Plugin</h2>
+  <p>Après l'installation, Pour intégrer le plugin Rainbow à votre système JCMS, veuillez remplir le formulaire ci-dessous avec les informations d'authentification nécessaires : </p>
+  <h3>Propriétés du Plugin :</h3>
+
+        <strong>Veuillez saisir votre application ID  :</strong><br>
+        <p>Ce champ nécessite l'ID d'application fourni par Rainbow pour identifier votre intégration. Veuillez saisir cet ID dans le champ prévu à cet effet.</p>
+
+        <strong>Veuillez saisir votre secret key :</strong><br>
+        </p>Saisissez ici la clé secrète fournie par Rainbow pour sécuriser les communications entre votre système JCMS et l'API Rainbow.</p>
+
+        Une fois ces informations remplies, cliquez sur le bouton "Enregistrer" pour appliquer les configurations.
+
+  <span><img src="./images/propriete.PNG" width='100%' /></span>
+  
+  <a name="Utilisation"></a> 
+      <h2>Utilisation :</h2>
+      <p>Premièrement, vous devez l'ajouter à votre liste d'applications</p>
+      <span><img src="./images/maliste.PNG"/><br></span>
+      <span><img src="./images/maliste2.PNG"/><br></span>
+      
+      <p>Un formulaire d'inscription s'affichera, dans lequel vous devrez saisir votre adresse e-mail et votre mot de passe.</p>
+      <span><img src="./images/login.PNG"/><br></span>
+      
+        <a name="Utilisation"></a> 
+      <h2>Fonctionnalités :</h2>
+      <a name="PagePrincipale"></a> 
+      <h3>1 Page Principale</h3>
+    <p>La page principale de Rainbow affiche toutes les conversations de l'utilisateur, organisées par ordre chronologique. Chaque conversation est présentée avec des indications sur les nouveaux messages non lus pour une gestion efficace des discussions actives.</p>
+
+<p>En outre, cette interface fournit le statut de présence de chaque contact, indiquant si un contact est en ligne, hors ligne ou indisponible. Cela permet aux utilisateurs de choisir le moment optimal pour initier une conversation.</p>
+   <span> <img src="./images/acceuil.PNG"     width= "900px" /></span>
+    
+    
+    <a name="Messagerie"></a>
+<h3>2 Messagerie Instantanée</h3>
+<p>Lorsque vous cliquez sur une conversation dans la messagerie instantanée, tous les messages échangés s'affichent dans l'ordre chronologique.</p>
+<p>Il existe deux types de conversations :</p>
+<ol>
+  <li>
+    <strong>One-to-One :</strong><br>
+   <span> <img src="./images/one-to-one.PNG"  width= "900px"></span>
+    <ul>
+      <li>Les informations de l'utilisateur, y compris son nom, avatar , sont affichées.</li>
+      <li>Vous pouvez envoyer un message directement depuis cette interface.</li>
+      <li>Vous avez la possibilité de démarrer un appel vocal ou vidéo avec l'utilisateur.</li>
+    </ul>
+  </li>
+  
+  <li>
+    <strong>Bubble (groupe) :</strong><br>
+    <span><img src="./images/room.PNG"  width= "900px"></span>
+    
+    <ul>
+      <li>L'interface affiche les messages avec le nom de l'expéditeur et son avatar.</li>
+      <li>L'interface affiche les organisateurs de la discussion et les membres de la bulle.</li>
+      <li>Vous pouvez envoyer un message directement depuis cette interface.</li>
+      <li>Vous pouvez également accéder à la conversation individuelle de chaque membre, facilitant ainsi la gestion des conversations respectives.</li>
+    </ul>
+  </li>
+</ol>
+
+
+   <a name="#Appel"></a>
+<h3>3 Appels Vocaux et Vidéo</h3>
+<p>Pour garantir le bon fonctionnement des appels vocaux et vidéo avec le plugin Rainbow, assurez-vous que votre serveur est configuré pour utiliser HTTPS. Les appels vocaux et vidéo nécessitent une connexion sécurisée pour assurer la confidentialité des communications et la sécurité des données échangées. Assurez-vous également que votre application dispose des autorisations nécessaires pour accéder à la caméra et au microphone de l'utilisateur.</p>
+<ol>
+  <li>
+<strong>Appel Vocal :</strong><br>
+
+ <h5>Faire un appel vocal</h5>
+    <ul>
+        <li>
+            <strong>Démarrer un appel vocal :</strong>
+            <p>Cliquez sur l'icône de téléphone pour initier un appel vocal. Assurez-vous que votre microphone et haut-parleurs fonctionnent correctement. Une fois l'appel lancé, vous verrez des options  raccrocher l'appel.</p>
+        </li>
+        <span><img src="./images/calling.PNG"  width= "900px"></span>
+        <li>
+            <strong>En cours d'appel :</strong>
+            <p>Pendant l'appel, vous pouvez voir la durée de l'appel, envoyer des messages et raccrocher l'appel.</p>
+        </li>
+        <span><img src="./images/talking.PNG"  width= "900px"></span>
+    </ul>
+
+    <h5>Recevoir un appel vocal</h5>
+    <ul>
+        <li>
+            <strong>Notification d'appel entrant :</strong>
+            <p>Lorsque vous recevez un appel, une notification apparaît sur votre écran. Vous verrez le nom et l'avatar du contact qui vous appelle.</p>
+        </li>
+        <span><img src="./images/vocalNot.PNG"  width= "400px"></span>
+        <li>
+            <strong>Répondre à l'appel :</strong>
+            <p>Cliquez sur le bouton de réponse pour accepter l'appel. Assurez-vous que votre microphone et haut-parleurs sont configurés correctement.</p>
+        </li>
+        <li>
+            <strong>Refuser l'appel :</strong>
+            <p>Lorsque vous souhaitez refuser l'appel, cliquez sur le bouton de Refuser. L'appel sera effectivement refusé</p>
+        </li>
+    </ul>
+    </li>
+     <li>
+<strong>Appels Vidéo</strong><br>
+
+ <h5>Faire un appel Appels Vidéo</h5>
+    <ul>
+        <li>
+            <strong>Démarrer un appel vidéo  :</strong>
+            <p>Cliquez sur l'icône de caméra pour initier un appel vidéo. Assurez-vous que votre caméra et microphone fonctionnent correctement. Une fois l'appel lancé, vous verrez des options pour raccrocher l'appel.</p>
+        </li>
+        <span><img src="./images/calling.PNG"  width= "900px"></span>
+        <li>
+            <strong>En cours d'appel :</strong>
+            <p>Pendant l'appel vidéo, vous pouvez voir la vidéo du contact avec qui vous parlez, votre propre vidéo, la durée de l'appel, envoyer des messages et raccrocher l'appel.</p>
+        </li>
+        <span><img src="./images/VideoCallTalking.PNG"  width= "900px"></span>
+    </ul>
+
+    <h5>Recevoir un appel vidéo</h5>
+    <ul>
+        <li>
+            <strong>Notification d'appel entrant :</strong>
+            <p>Lorsque vous recevez un appel, une notification apparaît sur votre écran. Vous verrez le nom et l'avatar du contact qui vous appelle.</p>
+        </li>
+        <span><img src="./images/callVideoReceive.PNG"  width= "400px"></span>
+        <li>
+            <strong>Répondre par vidéo :</strong>
+                    <p>Cliquez sur l'icône de caméra pour répondre à l'appel vidéo. Assurez-vous que votre caméra et microphone fonctionnent correctement. Vous serez connecté en vidéo avec le contact appelant.</p>
+        </li>
+          <span><img src="./images/VideoCallTalking.PNG"  width= "900px"></span>
+        
+        <li>
+            <strong>Répondre par audio :</strong>
+            <p>Cliquez sur l'icône d'audio pour répondre à l'appel en utilisant seulement l'audio. Votre vidéo ne s'affichera pas dans l'interface d'appel.</p>
+        </li>
+        <span><img src="./images/onlyAudio.PNG"  width= "900px"></span>
+        <li>
+            <strong>Refuser l'appel :</strong>
+        <p>Lorsque vous souhaitez refuser l'appel, cliquez sur le bouton de Refuser. L'appel sera effectivement refusé</p>        </li>
+    </ul>
+    </li>
+    <strong>Notifications des Appels</strong><br>
+    <span><img src ="./images/Appnot.PNG" width="400px"/></span>
+    <p>Lorsque vous recevez un appel sortant, une notification s'affiche dans la zone des messages. Vous pouvez voir qui vous appelle </p>
+
+<p>Si vous manquez un appel entrant, une notification d'appel manqué s'affiche également dans la zone des messages. Vous pouvez rappeler la personne ou envoyer un message pour suivre.</p>
+
+<p>Ces notifications vous permettent de gérer facilement vos appels et de rester informé des interactions importantes.</p>
+    </ol>
+    
+    <a href="#Notifications"></a>
+    <h3>4 Notifications</h3>
+    <p>si un utilisateur quitte le plugin, il peut savoir s'il y a eu un appel ou un message par le raccourci.</p>
+    <span><img src="./images/shortcut.PNG"  width= "900px"></span>
+  </body>
+</html>
